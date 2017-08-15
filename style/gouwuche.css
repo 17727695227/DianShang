@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-08-15 14:54:10
+ * @version $Id$
+ */
+ .hr25{
+ 	width: 100%;
+ 	height: 25px;
+ 	overflow: hidden;
+ }
+  .hr15{
+ 	width: 100%;
+ 	height: 15px;
+ 	overflow: hidden;
+ }
+.stepBox{
+	width: 396px;
+	padding-top: 26px;
+}
+.step{
+	background: url('../images/step.jpg') left top no-repeat;
+	height: 19px;
+	width: 100%;
+}
+.step_text{
+	color: #FFF;
+	font-size: 12px;
+	line-height: 30px;
+}
+.step_text li{
+	float: left;
+}
+.s01,.s03{
+	width: 30%;
+}
+.s02{
+	width: 40%;
+	text-align: center
+}
+.s03{
+	text-align: right;
+}
+.step_text .active{
+    color: #F3E402;
+    font-weight: bold;
+}
+/* 列表 */
+.shoppingCart{
+	margin-top: 10px;
+}
+.shopping_item{
+	border: #ccc solid 1px;
+}
+.shopping_tit{
+	height: 31px;
+	background: url('../images/shopping_bg.jpg') left top repeat-x;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #444444;
+	line-height: 31px;
+	font-weight: normal;
+	text-indent: 12px;
+}
+.padding_shop{
+	padding: 25px 30px;
+}
+.select{
+	border: #999 solid 1px;
+    height: 22px;
+	line-height: 22px;
+	float: left;
+	background-color: #FFF;
+	padding-left: 10px;
+	padding-right: 20px;
+	position: relative;
+	z-index: 4;
+}
+.select h3 {
+    font-size: 12px;
+    font-weight: normal;
+}
+.select span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background: url(../images/icon/sj_blue.jpg) center center no-repeat;
+}
+.show_select {
+    position: absolute;
+    left: -1px;
+    top: 22px;
+    background-color: #FFF;
+    width: 100%;
+    border: #999 solid 1px;
+    display: none;
+}
+.show_select li {
+    padding-left: 10px;
+}
+
+/*  */
+.shopping_list_text{
+	float: left;
+	width: 76px;
+	line-height: 24px;
+}
+.shopping_list li{
+	height: 24px;
+	margin-bottom: 10px;
+}
+.shopping_list_text em{
+	color: #F30;
+	font-style: normal;
+	margin-right: 5px;
+}
+.input{
+	height: 22px;
+	border: #CCC solid 1px;
+	padding: 0 6px;
+	width: 110px;
+}
+.input_b{
+	width: 392px;
+}
+.input_s{
+	width:64px;
+}
+.input_s2{
+	width: 84px;
+}
+.jian{
+	padding: 0 3px;
+}
+.affirm {
+    width: 114px;
+    height: 28px;
+    background: url('../images/sh_btn.jpg') left top no-repeat;
+}
+.redio{
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+}
